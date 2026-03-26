@@ -1,251 +1,298 @@
-Script started on 2026-03-15 02:47:54+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="183" LINES="36"]
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod o+x file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 44
--rw-rw-r-x 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod o-w file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 44
--rw-rw-r-x 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 000 file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 44
----------- 1 k k     0 Mar 15 02:47 file1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [0m[01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod u+rw file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 44
--rw------- 1 k k     0 Mar 15 02:47 file1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [0m[01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod o+x file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 44
--rw------x 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod u+x file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 48
--rwx-----x 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  4096 Mar 15 02:52 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod g+rwx file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 48
--rwxrwx--x 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  4096 Mar 15 02:52 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod rwx[K[K[Ko+rwx file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 48
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  4096 Mar 15 02:52 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod g-rwx file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 48
--rwx---rwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  4096 Mar 15 02:52 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod u-r file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 48
---wx---rwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  4096 Mar 15 02:52 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod o+r[Kxr file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 52
---wx---rwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  8192 Mar 15 02:54 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod o-xr file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 52
---wx----w- 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  8192 Mar 15 02:54 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmdo[K[Kod u+r file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 52
--rwx----w- 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  8192 Mar 15 02:54 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ g[Kchmod g+rwx file1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 52
--rwxrwx-w- 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k  8192 Mar 15 02:54 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod +[Ko+rx fille[K[K[Kle1.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 56
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 12288 Mar 15 02:56 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod file2.txt
-[?2004lchmod: missing operand after ‘file2.txt’
-Try 'chmod --help' for more information.
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 000 file2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls-[K -l
-[?2004ltotal 56
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
----------- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 12288 Mar 15 02:56 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ [K]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ [K]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 777[K[K[K[K 3 file2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 56
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
---------wx 1 k k     0 Mar 15 02:47 [01;32mfile2.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 12288 Mar 15 02:56 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 0 file2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 56
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
----------- 1 k k     0 Mar 15 02:47 file2.txt
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 12288 Mar 15 02:56 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 0[K300 file [K2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 56
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
---wx------ 1 k k     0 Mar 15 02:47 [01;32mfile2.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 12288 Mar 15 02:56 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 010 file2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 60
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
-------x--- 1 k k     0 Mar 15 02:47 [01;32mfile2.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 16384 Mar 15 03:04 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ^C[?2004l[?2004h[?2004l
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 777 file2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 60
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [01;32mfile2.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 16384 Mar 15 03:04 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ chmod 743 file2.txt
-[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
-[?2004ltotal 60
--rwxrwxrwx 1 k k     0 Mar 15 02:47 [0m[01;32mfile1.txt[0m
--rwxr---wx 1 k k     0 Mar 15 02:47 [01;32mfile2.txt[0m
--rw-rw-r-- 1 k k     0 Mar 15 02:47 file3.txt
--rw-rw-r-- 1 k k 27475 Mar 15 01:30 lec1.txt
--rw-rw-r-- 1 k k 16384 Mar 15 03:04 lec2.txt
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir1[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir2[0m
-drwxrwxr-x 2 k k  4096 Mar 15 02:47 [01;34mnewdir3[0m
-[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ exit
-[?2004lexit
+Script started on 2026-03-26 20:56:13+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="183" LINES="36"]
+[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ whoami
+[?2004lk
+[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ cat /etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+messagebus:x:101:101::/nonexistent:/usr/sbin/nologin
+syslog:x:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+usbmux:x:104:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+systemd-oom:x:990:990:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+kernoops:x:106:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+whoopsie:x:107:109::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:108:111:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+tcpdump:x:109:112::/nonexistent:/usr/sbin/nologin
+sssd:x:110:113:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:111:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+cups-pk-helper:x:112:114:user for cups-pk-helper service,,,:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:113:116::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:114:117::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:115:114::/nonexistent:/usr/sbin/nologin
+hplip:x:116:7:HPLIP system user,,,:/run/hplip:/bin/false
+gnome-remote-desktop:x:988:988:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:117:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:118:120:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:121:Gnome Display Manager:/var/lib/gdm3:/bin/false
+nm-openvpn:x:121:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+k:x:1000:1000:K:/home/k:/bin/bash
+testuser:x:1001:1001:,,,:/home/testuser:/bin/bash
+khuzaima:x:1002:1002:,,,:/home/khuzaima:/bin/bash
+[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ sudo adduser testuser1
+[?2004l[sudo] password for k: 
+info: Adding user `testuser1' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `testuser1' (1004) ...
+info: Adding new user `testuser1' (1004) with group `testuser1 (1004)' ...
+warn: The home directory `/home/testuser1' already exists.  Not touching this directory.
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for testuser1
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+info: Adding new user `testuser1' to supplemental / extra groups `users' ...
+info: Adding user `testuser1' to group `users' ...
+[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ sudo passwd testuser1
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ [K]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ sudo usermod -a G sudo testuser1
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ su -l testuser1 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1
+[?2004lPassword: 
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
 
-Script done on 2026-03-15 03:08:11+05:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ su -l k
+[?2004lPassword: 
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo deluser testuser1
+[?2004linfo: Removing crontab ...
+info: Removing user `testuser1' ...
+userdel: user testuser1 is currently used by process 3764
+fatal: `/usr/sbin/userdel testuser1' returned error code 8. Exiting.
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cat /etc/passwd | grep group
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cat /etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+messagebus:x:101:101::/nonexistent:/usr/sbin/nologin
+syslog:x:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+usbmux:x:104:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+systemd-oom:x:990:990:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+kernoops:x:106:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+whoopsie:x:107:109::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:108:111:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+tcpdump:x:109:112::/nonexistent:/usr/sbin/nologin
+sssd:x:110:113:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:111:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+cups-pk-helper:x:112:114:user for cups-pk-helper service,,,:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:113:116::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:114:117::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:115:114::/nonexistent:/usr/sbin/nologin
+hplip:x:116:7:HPLIP system user,,,:/run/hplip:/bin/false
+gnome-remote-desktop:x:988:988:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:117:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:118:120:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gnome-initial-setup:x:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:120:121:Gnome Display Manager:/var/lib/gdm3:/bin/false
+nm-openvpn:x:121:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+k:x:1000:1000:K:/home/k:/bin/bash
+testuser:x:1001:1001:,,,:/home/testuser:/bin/bash
+khuzaima:x:1002:1002:,,,:/home/khuzaima:/bin/bash
+testuser1:x:1004:1004:,,,:/home/testuser1:/bin/bash
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cat /etc/group
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,k
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:k
+floppy:x:25:
+tape:x:26:
+sudo:x:27:k,testuser,khuzaima,testuser1
+audio:x:29:
+dip:x:30:k
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:k
+staff:x:50:
+games:x:60:
+users:x:100:k,testuser,khuzaima,testuser1
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+systemd-timesync:x:996:
+input:x:995:
+sgx:x:994:
+kvm:x:993:
+render:x:992:
+messagebus:x:101:
+syslog:x:102:
+systemd-resolve:x:991:
+uuidd:x:103:
+_ssh:x:104:
+tss:x:105:
+ssl-cert:x:106:
+systemd-oom:x:990:
+bluetooth:x:107:
+rdma:x:108:
+whoopsie:x:109:
+netdev:x:110:
+avahi:x:111:
+tcpdump:x:112:
+sssd:x:113:
+lpadmin:x:114:k
+fwupd-refresh:x:989:
+scanner:x:115:saned
+saned:x:116:
+geoclue:x:117:
+pipewire:x:118:
+gnome-remote-desktop:x:988:
+polkitd:x:987:
+rtkit:x:119:
+colord:x:120:
+gdm:x:121:
+nm-openvpn:x:122:
+lxd:x:123:
+k:x:1000:
+gamemode:x:986:
+gnome-initial-setup:x:985:
+testuser:x:1001:
+khuzaima:x:1002:
+khuzaimagroup:x:1003:
+testuser1:x:1004:
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo groupadd devteam
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo usermo[K[K[K[K[K[K[K adduser labuser
+[?2004linfo: Adding user `labuser' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `labuser' (1006) ...
+info: Adding new user `labuser' (1006) with group `labuser (1006)' ...
+info: Creating home directory `/home/labuser' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for labuser
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+info: Adding new user `labuser' to supplemental / extra groups `users' ...
+info: Adding user `labuser' to group `users' ...
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo usermod -aG labuser devteam
+[?2004lusermod: user 'devteam' does not exist
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo usermod -aG devteam labuser
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo gpasswd -d t[Kdevteam labuser
+[?2004lRemoving user devteam from group labuser
+gpasswd: user 'devteam' is not a member of 'labuser'
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ sudo groupdel devteam
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ id k
+[?2004luid=1000(k) gid=1000(k) groups=1000(k),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),114(lpadmin)
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ exit
+[?2004llogout
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cd Linux_Practice [K_t[KTerminal_Sessions
+[?2004l-bash: cd: Linux_Practice_Terminal_Sessions: No such file or directory
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cd D[K[K[K[Kcd [K[K[K[7mcd ~/Desktop/Linux_Practice_Terminal_Sessions[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/Desktop/Linux_Practice_Terminal_Sessions
+[A
+[?2004l-bash: cd: /home/testuser1/Desktop/Linux_Practice_Terminal_Sessions: No such file or directory
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cd /Desktop?Linux_Practice_t[KTerminal_Sessions
+[?2004l-bash: cd: /Desktop?Linux_Practice_Terminal_Sessions: No such file or directory
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 0
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ su -l k
+[?2004lPassword: 
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cd[K[Kls -l
+[?2004ltotal 36
+drwxr-xr-x 5 k k 4096 Mar 24 13:56 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mDocuments[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mDownloads[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mMusic[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mPictures[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mPublic[0m
+drwx------ 5 k k 4096 Mar 15 03:00 [01;34msnap[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mTemplates[0m
+drwxr-xr-x 2 k k 4096 Feb 24 02:04 [01;34mVideos[0m
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ cd Desktop/Linux_Practice_Terminal_Sessions
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ git [K[K[K[Kexit
+[?2004llogout
+[?2004h]0;testuser1@k-VMware-Virtual-Platform: ~[01;32mtestuser1@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ su -l k
+[?2004lPassword: 
+[?2004h]0;k@k-VMware-Virtual-Platform: ~[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~[00m$ [7mcd Desktop/Linux_Practice_Terminal_Sessions[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Desktop/Linux_Practice_Terminal_Sessions
+[A
+[?2004l[?2004h]0;k@k-VMware-Virtual-Platform: ~/Desktop/Linux_Practice_Terminal_Sessions[01;32mk@k-VMware-Virtual-Platform[00m:[01;34m~/Desktop/Linux_Practice_Terminal_Sessions[00m$ ls -l
+[?2004lt
